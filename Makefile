@@ -15,21 +15,21 @@ CFLAGS = -Wall -Wextra -Werror
 ARFLAGS = -rc
 NAME = libftprintf.a
 
-SOURCES =	print_diux.c\
-			print_p.c\
-			print_cs.c\
-			print_percent.c\
-			is_.c\
-			ft_vprintf.c\
-			ft_put_.c\
-			ft_printf.c\
-			switch_print.c\
-			itohex.c\
-			set_precision.c\
-			set_flag.c\
-			set_field.c\
-			output.c\
-			ft_uitoa.c\
+SOURCES =	src/print_diux.c\
+			src/print_p.c\
+			src/print_cs.c\
+			src/print_percent.c\
+			src/is_.c\
+			src/ft_vprintf.c\
+			src/ft_put_.c\
+			src/ft_printf.c\
+			src/switch_print.c\
+			src/itohex.c\
+			src/set_precision.c\
+			src/set_flag.c\
+			src/set_field.c\
+			src/output.c\
+			src/ft_uitoa.c\
 			libft/ft_itoa.c\
 			libft/ft_isdigit.c\
 			libft/ft_memmove.c\
